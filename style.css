@@ -32,6 +32,16 @@ body {
   line-height: 1.8;
   overflow-x: hidden;
   letter-spacing: 0.3px;
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .container {
