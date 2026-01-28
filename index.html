@@ -2,32 +2,198 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Ayush Lakhani | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayush Lakhani | MERN Stack Developer</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Ayush Lakhani</h1>
-    <h3>MERN Stack Developer</h3>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">AL</div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <p>
-      BCA Graduate passionate about building scalable, real-world web applications.
-      Focused on clean code, strong fundamentals, and continuous learning.
-    </p>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="hero-title">Ayush Lakhani</h1>
+      <p class="hero-subtitle">MERN Stack Developer & Problem Solver</p>
+      <p class="hero-description">
+        Crafting elegant, scalable web solutions with modern technologies. 
+        Passionate about clean architecture, optimal performance, and creating intuitive user experiences.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-animation">
+      <div class="floating-card"></div>
+    </div>
+  </section>
 
-    <h4>Skills</h4>
-    <p>HTML • CSS • JavaScript • React • Node.js • MongoDB • MySQL</p>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a BCA graduate with a proven track record of developing robust, production-ready web applications. 
+            My expertise spans the full MERN stack, allowing me to take projects from concept to deployment with confidence.
+          </p>
+          <p>
+            I'm deeply committed to writing clean, maintainable code and following industry best practices. 
+            I focus on solving complex problems with elegant solutions, always keeping scalability and performance at the forefront of my development process.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <h4>Projects</h4>
-    <ul>
-      <li>Hostel Management System</li>
-      <li>Grocery Management System</li>
-      <li>Uber-like App (MERN)</li>
-    </ul>
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-items">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skill-items">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools & Others</h3>
+          <div class="skill-items">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Responsive Design</span>
+            <span class="skill-tag">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <h4>Contact</h4>
-    <p>Email: ayush.lakhani.dev@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/YOUR_LINK</p>
-  </div>
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Hostel Management System</h3>
+            <span class="project-tag">Full Stack</span>
+          </div>
+          <p class="project-description">
+            End-to-end hostel operations platform featuring student enrollment, room allocation, 
+            maintenance tracking, and automated complaint resolution with real-time notifications.
+          </p>
+          <div class="project-tech">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>REST API</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Grocery Management System</h3>
+            <span class="project-tag">Web App</span>
+          </div>
+          <p class="project-description">
+            Comprehensive inventory and sales management platform enabling real-time stock tracking, 
+            automated reordering, sales analytics, and vendor management with role-based access control.
+          </p>
+          <div class="project-tech">
+            <span>React</span>
+            <span>Express</span>
+            <span>MySQL</span>
+            <span>Charts</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Uber-like Ride Service App</h3>
+            <span class="project-tag">MERN</span>
+          </div>
+          <p class="project-description">
+            Complete ride-sharing ecosystem with real-time location tracking, dynamic pricing, 
+            secure user authentication, ride history, and integrated payment processing.
+          </p>
+          <div class="project-tech">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>Maps API</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-subtitle">Feel free to reach out for opportunities or collaborations</p>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:ayush.lakhani.dev@gmail.com">ayush.lakhani.dev@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-link"></i>
+            <div>
+              <h4>LinkedIn</h4>
+              <p><a href="https://linkedin.com/in/YOUR_LINK" target="_blank">linkedin.com/in/ayush-lakhani</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-code-branch"></i>
+            <div>
+              <h4>GitHub</h4>
+              <p><a href="https://github.com/ayush-lakhani" target="_blank">github.com/ayush-lakhani</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Ayush Lakhani. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
